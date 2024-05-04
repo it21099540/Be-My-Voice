@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable-v24/search.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable/app.xml" value="0.166" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable/app_icon.xml" value="0.166" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable/app_icon_foreground.xml" value="0.1465" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable/bg_app.xml" value="0.1465" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable/ic_deaf_person_svgrepo_com.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1215" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1215" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable/ic_mic_svgrepo_com.xml" value="0.1215" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable/ic_microphone.xml" value="0.1215" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable/ic_navigation_arrow.xml" value="0.1215" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable/ic_search.xml" value="0.2125" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable/logo.xml" value="0.184" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable/priority_seating_alert.xml" value="0.1215" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable/search.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable/your_image.xml" value="0.185" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/layout/activity_indoor_navigation.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/layout/activity_main.xml" value="0.11277173913043478" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/layout/activity_navigation_destination.xml" value="0.176" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/layout/activity_navigation_destinations.xml" value="0.11277173913043478" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/layout/activity_outdoor_navigation.xml" value="0.1578125" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/layout/activity_public_transport.xml" value="0.11980749746707194" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/layout/button_background.xml" value="0.13541666666666666" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/layout/navigation_route_model.xml" value="0.184375" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/layout/splash_screen.xml" value="0.1765625" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/BeMyVoice/app/src/main/res/xml/navigation_route_model.xml" value="0.184375" />
+        <entry key="..\:/Users/ISHINI/AndroidStudioProjects/BeMyVoice/app/src/main/res/drawable/priority_seating_alert.xml" value="0.2355" />
+        <entry key="..\:/Users/ISHINI/AndroidStudioProjects/BeMyVoice/app/src/main/res/layout/activity_indoor_navigation.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/ISHINI/AndroidStudioProjects/BeMyVoice/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ISHINI/AndroidStudioProjects/BeMyVoice/app/src/main/res/layout/activity_outdoor_navigation.xml" value="0.25" />
+        <entry key="..\:/Users/ISHINI/AndroidStudioProjects/BeMyVoice/app/src/main/res/layout/activity_public_transport.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

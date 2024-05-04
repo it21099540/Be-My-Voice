@@ -1,0 +1,10 @@
+dependencyResolutionManagement {
+    repositories {
+        google()
+        // other repositories if needed
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'BeMyVoice'
+include ':app'

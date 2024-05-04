@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextureView
+        android:id="@+id/cameraView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/realTimeUpdateTextView"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/realTimeUpdateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Real-time updates will appear here"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/navigationInstructionsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/realTimeUpdateTextView"
+        android:text=""
+        android:padding="16dp" />
+
+    <fragment
+        android:id="@+id/arFragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+    <!-- Container for rounded image button -->
+
+    <!-- Add more UI components as needed -->
+
+</RelativeLayout>

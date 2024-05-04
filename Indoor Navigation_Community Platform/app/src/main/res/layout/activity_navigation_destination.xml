@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Please select your destination"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <!-- Search Box -->
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="#E0E0E0"
+        android:hint="Search location"
+        android:paddingStart="8dp"
+        android:paddingEnd="48dp" />
+
+    <!-- Search Icon -->
+    <ImageButton
+        android:id="@+id/searchIconButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/searchEditText"
+        android:layout_alignEnd="@id/searchEditText"
+        android:layout_marginEnd="1dp"
+        android:background="@null"
+        android:src="@drawable/ic_search"
+        android:padding="1dp" />
+
+    <!-- ListView -->
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchEditText"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="64dp"
+        android:background="#E0E0E0"
+        android:elevation="4dp" />
+    <TextView
+        android:id="@+id/noMatchesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchEditText"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+
+        android:text="No matches found"
+        android:visibility="gone" />
+
+    <!-- Voice Search Button -->
+    <ImageButton
+        android:id="@+id/voiceSearchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:src="@drawable/ic_mic_svgrepo_com" />
+
+</RelativeLayout>

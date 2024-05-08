@@ -125,14 +125,11 @@ public class  objectDetectorClass {
 
 
         float[][][]boxes =new float[1][10][4];
-        // 10: top 10 object detected
-        // 4: there coordinate in image
+        
         float[][] scores=new float[1][10];
-        // stores scores of 10 object
+       
         float[][] classes=new float[1][10];
-        // stores class of object
-
-        // add it to object_map;
+        
         output_map.put(0,boxes);
         output_map.put(1,classes);
         output_map.put(2,scores);
@@ -152,7 +149,7 @@ public class  objectDetectorClass {
 
             if(score_value>0.5){
                 Object box1=Array.get(Array.get(value,0),i);
-                // we are multiplying it with Original height and width of frame
+                
 
                 float y1=(float) Array.get(box1,0)*height;
                 float x1=(float) Array.get(box1,1)*width;
@@ -285,10 +282,7 @@ public class  objectDetectorClass {
 
     private ByteBuffer convertBitmapToByteBuffer(Bitmap bitmap) {
         ByteBuffer byteBuffer;
-        // some model input should be quant=0  for some quant=1
-        // for this quant=0
-        // Change quant=1
-        // As we are scaling image from 0-255 to 0-1
+        
         int quant=1;
         int size_images=INPUT_SIZE;
         if(quant==0){
@@ -302,8 +296,7 @@ public class  objectDetectorClass {
         bitmap.getPixels(intValues,0,bitmap.getWidth(),0,0,bitmap.getWidth(),bitmap.getHeight());
         int pixel=0;
 
-        // some error
-        //now run
+        
         for (int i=0;i<size_images;++i){
             for (int j=0;j<size_images;++j){
                 final  int val=intValues[pixel++];
@@ -313,7 +306,7 @@ public class  objectDetectorClass {
                     byteBuffer.put((byte) (val&0xFF));
                 }
                 else {
-                    // paste this
+                    
                     byteBuffer.putFloat((((val >> 16) & 0xFF))/255.0f);
                     byteBuffer.putFloat((((val >> 8) & 0xFF))/255.0f);
                     byteBuffer.putFloat((((val) & 0xFF))/255.0f);
